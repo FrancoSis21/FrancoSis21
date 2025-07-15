@@ -76,7 +76,7 @@
 ### 🎴 Imagen Decorativa
 
 <p align="center">
-  <img src="https://i.imgur.com/WxNC2b0.png" width="160" alt="Decorativo" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60qJqNgG3Mv0p4gnm1TuRPgO867Y_xgc2iQ&s" width="160" alt="Decorativo" />
 </p>
 
 <p align="center">
