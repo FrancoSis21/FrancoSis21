@@ -1,63 +1,62 @@
-<!-- PERFIL GITHUB EMBELLECIDO -->
+<!-- PERFIL GITHUB - IMAGENES A LA DERECHA Y DATOS A LA IZQUIERDA -->
 
-<!-- Imagen principal centrada y más abajo -->
-<p align="center" style="margin-top: 60px; position: relative;">
-  <img src="https://i.imgur.com/x6qU1kR.png" width="180" alt="Logo" />
-</p>
+<!-- Contenedor principal con flex -->
+<div align="center" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
 
-<!-- Imagen secundaria alineada verticalmente a la principal -->
-<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px;">
-  <div></div> <!-- Espacio para alinear -->
-  <img src="https://i.imgur.com/aNBi8Jf.png" width="160" alt="Shimarin" />
+  <!-- Sección de texto (a la izquierda) -->
+  <div align="left" style="flex: 1; min-width: 300px; max-width: 600px;">
+
+  <h2>/ sobre mí /</h2>
+  <ul>
+    <li>⭐ Actualmente trabajando en <strong>Desarrollo Web</strong></li>
+    <li>💀 En su mayoría en <strong>Repositorios Privados</strong></li>
+    <li>👾 <strong>Estudiante</strong> aprendiendo y explorando nuevas tecnologías</li>
+  </ul>
+
+  <h2>/ habilidades /</h2>
+
+  ### 🖥️ Lenguajes  
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" title="C" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" title="PHP" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" title="Java" />
+  </p>
+
+  ### 🔧 Backend  
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" width="40" title="CodeIgniter" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express" />
+  </p>
+
+  ### 🎨 Frontend  
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML5" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" title="Bootstrap" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React" />
+  </p>
+
+  ### 🗄️ Bases de Datos  
+  <p>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="MySQL" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" title="SQLite" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" title="Firebase" />
+  </p>
+
+  </div>
+
+  <!-- Sección de imágenes (a la derecha) -->
+  <div align="right" style="flex: 1; min-width: 200px; max-width: 400px;">
+    <img src="https://i.imgur.com/x6qU1kR.png" width="180" alt="Logo" style="margin-bottom: 20px;" />
+    <br />
+    <img src="https://i.imgur.com/aNBi8Jf.png" width="160" alt="Shimarin" />
+  </div>
+
 </div>
-
-<h2 align="center">/ sobre mí /</h2>
-
-<ul>
-  <li>⭐ Actualmente trabajando en <strong>Desarrollo Web</strong></li>
-  <li>💀 En su mayoría en <strong>Repositorios Privados</strong></li>
-  <li>👾 <strong>Estudiante</strong> aprendiendo y explorando nuevas tecnologías</li>
-</ul>
-
----
-
-<h2 align="center">/ habilidades /</h2>
-
-### 🖥️ Lenguajes
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" title="C" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" title="PHP" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40" title="Java" />
-</p>
-
-### 🔧 Backend
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" width="40" title="CodeIgniter" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express" />
-</p>
-
-### 🎨 Frontend
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" title="Bootstrap" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" title="React" />
-</p>
-
-### 🗄️ Bases de Datos
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="MySQL" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" title="SQLite" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" title="Firebase" />
-</p>
 
 ---
 
