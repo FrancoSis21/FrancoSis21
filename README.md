@@ -73,8 +73,10 @@
 
 ---
 
+### 🎴 Imagen Decorativa
+
 <p align="center">
-  <img src="https://i.imgur.com/kWwXlKq.png" width="160" alt="Decorativo" />
+  <img src="https://i.imgur.com/WxNC2b0.png" width="160" alt="Decorativo" />
 </p>
 
 <p align="center">
