@@ -1,9 +1,9 @@
-<!-- PERFIL GITHUB - IMAGENES A LA DERECHA Y DATOS A LA IZQUIERDA -->
+<!-- PERFIL GITHUB - COLUMNAS IZQUIERDA (DATOS) Y DERECHA (IMÁGENES) -->
 
-<!-- Contenedor principal con flex -->
-<div align="center" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+<!-- Contenedor principal -->
+<div align="center" style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap;">
 
-  <!-- Sección de texto (a la izquierda) -->
+  <!-- Sección izquierda - DATOS -->
   <div align="left" style="flex: 1; min-width: 300px; max-width: 600px;">
 
   <h2>/ sobre mí /</h2>
@@ -49,8 +49,8 @@
 
   </div>
 
-  <!-- Sección de imágenes (a la derecha) -->
-  <div align="right" style="flex: 1; min-width: 200px; max-width: 400px;">
+  <!-- Sección derecha - IMÁGENES -->
+  <div align="right" style="flex: 1; min-width: 200px; max-width: 300px;">
     <img src="https://i.imgur.com/x6qU1kR.png" width="180" alt="Logo" style="margin-bottom: 20px;" />
     <br />
     <img src="https://i.imgur.com/aNBi8Jf.png" width="160" alt="Shimarin" />
