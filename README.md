@@ -4,11 +4,12 @@
   <img src="https://i.imgur.com/x6qU1kR.png" width="180" alt="Logo" />
 </p>
 
+## / sobre mí /
+
 <p align="right">
   <img src="https://i.imgur.com/aNBi8Jf.png" width="160" alt="Shimarin" />
 </p>
 
-## / sobre mí /
 - ⭐ Actualmente trabajando en **Desarrollo Web**  
 - 💀 En su mayoría en **Repositorios Privados**  
 - 👾 **Estudiante** aprendiendo y explorando nuevas tecnologías  
