@@ -1,96 +1,294 @@
-<p align="center">
-  <img src="https://i.imgur.com/x6qU1kR.png">
-</p>
+<!-- PERFIL HTML ESTÉTICO, CON REDES SOCIALES Y TU NOMBRE -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
 
-<div align="center">
-  <img src="https://i.imgur.com/aNBi8Jf.png" width="200" align="right" alt="Shimarin">
-  <h2>/ about me /</h2>
-  <ul align="left">
-    <li>⭐ currently working on <strong>web-development</strong></li>
-    <li>💀 mostly working on <strong>private repositories</strong></li>
-    <li>👾 a <strong>student</strong> working his way around things</li>
+<style>
+  body {
+    background-color: #000;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(6px);
+    position: relative;
+    overflow: hidden;
+  }
+
+  h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    border-bottom: 1px solid #ffffff20;
+    padding-bottom: 5px;
+  }
+
+  h4 {
+    margin-top: 20px;
+    color: #aad8ff;
+    font-family: "Fira Code", monospace;
+  }
+
+  ul {
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  ul li {
+    margin: 8px 0;
+  }
+
+  .icons img {
+    margin: 5px 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .icons img:hover {
+    transform: scale(1.15);
+  }
+
+  .top-img {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .shimarin {
+    float: right;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    margin-left: 20px;
+  }
+
+  .corner-img {
+    width: 162px;
+    position: absolute;
+    right: 25px;
+    top: 430px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.06);
+    opacity: 0;
+    animation: fadeInUp 1.2s ease forwards;
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  }
+
+  .social {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .social a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8;
+  }
+
+  .social a:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+
+  .social img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+  }
+
+  .author {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .shimarin {
+      float: none;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .corner-img {
+      position: static;
+      display: block;
+      margin: 30px auto 0;
+    }
+  }
+</style>
+
+<div class="container">
+  <div class="top-img">
+    <img src="https://i.imgur.com/x6qU1kR.png" width="180" alt="Logo" />
+  </div>
+
+  <img
+    src="https://i.imgur.com/aNBi8Jf.png"
+    width="160"
+    class="shimarin"
+    alt="Shimarin"
+  />
+
+  <h2>/ sobre mí /</h2>
+  <ul>
+    <li>⭐ Actualmente trabajando en <strong>Desarrollo Web</strong></li>
+    <li>💀 En su mayoría en <strong>Repositorios Privados</strong></li>
+    <li>
+      👾 <strong>Estudiante</strong> aprendiendo y explorando nuevas tecnologías
+    </li>
   </ul>
 
-  <h2>/ current skills /</h2>
+  <h2>/ habilidades /</h2>
 
-  <h4>Languages</h4>
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <h4>Lenguajes</h4>
+  <p class="icons">
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+      width="40"
+      title="C"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+      width="40"
+      title="C++"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+      width="40"
+      title="Python"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+      width="40"
+      title="JavaScript"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+      width="40"
+      title="PHP"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+      width="40"
+      title="Java"
+    />
+  </p>
 
-  <h5>Currently learning</h5>
-  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
+  <h4>Backend</h4>
+  <p class="icons">
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+      width="40"
+      title="Node.js"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg"
+      width="40"
+      title="CodeIgniter"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+      width="40"
+      title="Express"
+    />
+  </p>
 
-  <h4>Frameworks & Libraries</h4>
-  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-  <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37"/>
-  <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
+  <h4>Frontend</h4>
+  <p class="icons">
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+      width="40"
+      title="HTML5"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+      width="40"
+      title="CSS3"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+      width="40"
+      title="Bootstrap"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+      width="40"
+      title="React"
+    />
+  </p>
 
-  <h4>Design Tools</h4>
-  <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white"/>
-  <img src="https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white"/>
-  <img src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
+  <h4>Bases de Datos</h4>
+  <p class="icons">
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+      width="40"
+      title="MySQL"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+      width="40"
+      title="SQLite"
+    />
+    <img
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+      width="40"
+      title="Firebase"
+    />
+  </p>
 
-  <br><br>
+  <!-- Imagen decorativa -->
+  <img
+    class="corner-img"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60qJqNgG3Mv0p4gnm1TuRPgO867Y_xgc2iQ&s"
+    alt="Decorativo"
+  />
 
-  <img height="70" src="https://c.tenor.com/fYg91qBpDdgAAAAi/bongo-cat-transparent.gif"><br>
-  <img width="100%" src="https://see.fontimg.com/api/renderfont4/2O6xe/eyJyIjoiZnMiLCJoIjoyMywidyI6MTAwMCwiZnMiOjIzLCJmZ2MiOiIjMDAwMDAwIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/SGVsbG8gSSdtIFNhbnNrYXIgU2FodSB8fCBEU21hcmsg/organical-personal-use-bold-italic.png"><br>
-  <img height="80" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/72/au-kddi/190/flushed-face_1f633.png">
+  <!-- Redes sociales -->
+  <div class="social">
+    <a href="https://facebook.com" target="_blank"
+      ><img
+        src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg"
+        alt="Facebook"
+    /></a>
+    <a href="https://instagram.com" target="_blank"
+      ><img
+        src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"
+        alt="Instagram"
+    /></a>
+    <a href="https://x.com" target="_blank"
+      ><img
+        src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg"
+        alt="X"
+    /></a>
+    <a href="https://github.com" target="_blank"
+      ><img
+        src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"
+        alt="GitHub"
+    /></a>
+  </div>
+
+  <!-- Autor -->
+  <div class="author">
+    Creado por <strong>Franco Rojas Luque</strong> © 2025
+  </div>
 </div>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Hello%20 I%27m%20%5BSanskar%20Sahu%20%7C%7C%20DSmark%5D;A+Programmer;Web+Developer+%26%26%20+Web+Designer;Gamer%20%26%26%20Developer;DS%20|%20Algorithms%20|%20OOP%20;&center=true&width=500&height=50">
-</p>
-
----
-
-### 👨‍💻 Tech Stack
-
-```mermaid
-flowchart 
-f1[HTML]
-f2[Css]
-f3[javaScript]
-f4[Markdown]
-fw1((ReactJs))
-fw2((NextJs))
-fw3((Bootstrap))
-fw4((tailwind))
-fw5((Scss))
-fw6((mermaid))
-b1{NodeJs}
-b2{RestAPIs}
-b3{PHP}
- subgraph  BackEnd
-b1
-b2
-b3
- end  
- subgraph Framworks 
-fw1
-fw2
-fw3
-fw4
-fw5
-fw6
- end
-  subgraph  FrontEnd 
- f1
- f2
- f3
- f4
- end  
- f1 --o f2
- f1 --o f3
- f1 --o f4
- f2 --> fw3
- f2 --> fw4
- f2 --> fw5
- f3 --o fw1
- f3 --o fw2
- fw2 --o b1
- f4 --> fw6
- b1 --o b2
