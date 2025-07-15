@@ -1,24 +1,31 @@
-<br><br>
+<!-- PERFIL GITHUB EMBELLECIDO -->
 
-<p align="center">
+<!-- Imagen principal centrada y más abajo -->
+<p align="center" style="margin-top: 60px; position: relative;">
   <img src="https://i.imgur.com/x6qU1kR.png" width="180" alt="Logo" />
 </p>
 
-<p align="right">
+<!-- Imagen secundaria alineada verticalmente a la principal -->
+<div align="center" style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px;">
+  <div></div> <!-- Espacio para alinear -->
   <img src="https://i.imgur.com/aNBi8Jf.png" width="160" alt="Shimarin" />
-</p>
+</div>
 
-## / sobre mí /
+<h2 align="center">/ sobre mí /</h2>
 
-- ⭐ Actualmente trabajando en **Desarrollo Web**
-- 💀 En su mayoría en **Repositorios Privados**
-- 👾 <strong>Estudiante</strong> aprendiendo y explorando nuevas tecnologías
+<ul>
+  <li>⭐ Actualmente trabajando en <strong>Desarrollo Web</strong></li>
+  <li>💀 En su mayoría en <strong>Repositorios Privados</strong></li>
+  <li>👾 <strong>Estudiante</strong> aprendiendo y explorando nuevas tecnologías</li>
+</ul>
 
-## / habilidades /
+---
+
+<h2 align="center">/ habilidades /</h2>
 
 ### 🖥️ Lenguajes
 
-<p>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="40" title="C" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40" title="C++" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" title="Python" />
@@ -29,7 +36,7 @@
 
 ### 🔧 Backend
 
-<p>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" title="Node.js" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain.svg" width="40" title="CodeIgniter" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="40" title="Express" />
@@ -37,7 +44,7 @@
 
 ### 🎨 Frontend
 
-<p>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" title="HTML5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" title="CSS3" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="40" title="Bootstrap" />
@@ -46,7 +53,7 @@
 
 ### 🗄️ Bases de Datos
 
-<p>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" title="MySQL" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="40" title="SQLite" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="40" title="Firebase" />
